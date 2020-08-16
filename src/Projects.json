@@ -42,7 +42,7 @@
     {
         "name": "Weather Owl",
         "description": "An application that allow ones to check the weather as well an analyze the weather situation.",
-        "github": "https://github.com/Grandient/Color-Theory",
+        "github": "https://github.com/Grandient/WeatherApp",
         "deployment": null,
         "libraries": "Language: Java. Libraries: MPAndroidChart, OpenWeatherMap.",
         "image": "images/wowl.png"
