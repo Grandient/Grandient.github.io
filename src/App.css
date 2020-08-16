@@ -99,13 +99,13 @@
     }
 
     .lower-proj {
-        flex-direction:row;
         flex: 1;
         flex-flow: row wrap;
     }
     
     .upper-proj {
-        flex-flow: row wrap;
+        flex-flow: column wrap;
+        min-width: 80vw;
     }
     
     .project {

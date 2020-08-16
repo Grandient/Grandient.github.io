@@ -23,10 +23,19 @@ class App extends React.Component{
   }
 
   render(){
+    let particles = true;
     let h = document.height;
+    var ua = navigator.userAgent.toLowerCase(); 
+    if (ua.indexOf('safari') != -1) { 
+      if (ua.indexOf('chrome') > -1) {
+        particles = true;
+      } else {
+        particles = false;
+      }
+    }
     return (
       <div>
-        <ParticlesBg type="cobweb" num={100} color="123abc" bg={true} style={{height: h}}/>
+        {particles ? <ParticlesBg type="cobweb" num={100} color="123abc" bg={true} style={{height: h}}/> : null}
         <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
         <div className="center">
           <div className="title">
