@@ -95,7 +95,7 @@
 
 @media (max-width: 720px) {
     .header-project {
-        margin: 2vh;
+        margin: 6vh;
     }
 
     .lower-proj {
@@ -116,7 +116,7 @@
 
 @media (max-width: 480px){
     .header-project {
-        margin: 4vh;
+        margin-bottom: 6vh;
     }
     .project {
         width: 100vw;

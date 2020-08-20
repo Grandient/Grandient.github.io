@@ -17,11 +17,6 @@ class App extends React.Component{
   constructor(props){
     super(props);
   }
-
-  onLinkHover = () => {
-
-  }
-
   render(){
     let particles = true;
     let h = document.height;
