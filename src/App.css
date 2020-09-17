@@ -180,15 +180,15 @@ body {
     .project {
         height: 20vh;
         min-height: 20vh;
-        margin:1vh;
+        margin:6vh;
     }
 }
 
 @media (max-width:325px){
     .project {
-        height: 20vh;
-        min-height: 20vh;
-        margin:2vh;
+        height: 25vh;
+        min-height: 25vh;
+        margin:7vh;
     }
 }
 
