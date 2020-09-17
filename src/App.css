@@ -118,13 +118,14 @@ body {
 @media (max-width:1440px){
     .project {
         height: 20vh;
-        margin: 1vh;
+        margin: 5vh;
     }
 }
 
 @media (max-width:1024px){
     .project {
         height: 4vh;
+        margin: 3vh;
     }
 
     .message {
@@ -133,14 +134,12 @@ body {
     }
 }
 
-@media (max-width: 930px) {
-
-}
-
 @media (max-width: 768px) {
     .project {
-        height: 15vh;
+        height: 4vh;
+        margin: 5vh;
     }
+
 }
 
 @media (max-width: 594px) {
@@ -171,8 +170,25 @@ body {
     }
 
     .project {
-        height: 15vh;
-        min-height: 15vh;
+        height: 20vh;
+        min-height: 20vh;
+        margin:6vh;
+    }
+}
+
+@media (max-width:375px){
+    .project {
+        height: 20vh;
+        min-height: 20vh;
+        margin:1vh;
+    }
+}
+
+@media (max-width:325px){
+    .project {
+        height: 20vh;
+        min-height: 20vh;
+        margin:2vh;
     }
 }
 
