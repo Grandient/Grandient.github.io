@@ -30,10 +30,9 @@ class App extends React.Component{
         particles = false;
       }
     }
-    console.log(w)
+
     if(w <= 425){
       particles = false;
-      //showImage = false;
     }
 
     if(h <= 780){

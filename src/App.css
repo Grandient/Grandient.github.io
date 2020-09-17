@@ -64,6 +64,7 @@ body {
     text-align: left;
     word-wrap: break-word;
     font-size: 20px;
+    margin-left: 1vw;
 }
 
 .header-project {
