@@ -178,16 +178,16 @@ body {
 
 @media (max-width:375px){
     .project {
-        height: 20vh;
-        min-height: 20vh;
+        height: 25vh;
+        min-height: 25vh;
         margin:6vh;
     }
 }
 
 @media (max-width:325px){
     .project {
-        height: 25vh;
-        min-height: 25vh;
+        height: 30vh;
+        min-height: 30vh;
         margin:7vh;
     }
 }

@@ -41,7 +41,7 @@ class App extends React.Component{
     }
 
     return (
-      <div>
+      <main>
         {particles ? <ParticlesBg type="cobweb" num={100} color="123abc" bg={true} style={{height: h}}/> : null}
         <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
         <div className="center">
@@ -56,23 +56,23 @@ class App extends React.Component{
           </div>
           <Bounce>
           <FadeIn>
-          <div>
-            <a className="icon" href="https://www.linkedin.com/in/gavin-gosling-cs/" target="_blank" data-hint="LinkedIn">
+          <nav>
+            <a className="icon" aria-label="Linkedin" href="https://www.linkedin.com/in/gavin-gosling-cs/" target="_blank" data-hint="LinkedIn" rel="noreferrer">
               <FaLinkedin size={40}/>
             </a>
-            <a className="icon" href="https://github.com/Grandient" target="_blank" data-hint="Github">
+            <a className="icon" aria-label="Github" href="https://github.com/Grandient" target="_blank" data-hint="Github" rel="noreferrer">
               <FaGithub size={40}/>
             </a>
-            <a className="icon" href="mailto:gavin.gosling1@gmail.com" target="_blank" data-hint="E-mail">
+            <a className="icon" aria-label="E-mail" href="mailto:gavin.gosling1@gmail.com" target="_blank" data-hint="E-mail" rel="noreferrer">
               <FaEnvelope size={40}/>
             </a>
-            <a className="icon" href="https://stackoverflow.com/users/12733306/" target="_blank" data-hint="Stack Overflow">
+            <a className="icon" aria-label="Stack Overflow" href="https://stackoverflow.com/users/12733306/" target="_blank" data-hint="Stack Overflow" rel="noreferrer">
               <FaStackOverflow size={40}/>
             </a>
-            <a className="icon" href="./data/GavinGosling_CV.pdf" data-hint="PDF">
+            <a className="icon" aria-label="CV" href="./data/GavinGosling_CV.pdf" data-hint="PDF" rel="noreferrer">
               <FaFilePdf size={40}/>
             </a>
-          </div>
+          </nav>
           </FadeIn>
           </Bounce>
           {spinner ? <RingLoader
@@ -92,7 +92,7 @@ class App extends React.Component{
             </div>
           </div>
         <Projects showImage={showImage}/>
-      </div>
+      </main>
     );
   }
 }
@@ -100,25 +100,25 @@ class App extends React.Component{
 function Projects(props){
   let showImage = props.showImage;
   return (
-    <div className="projects">
+    <section className="projects">
       {json.map((project, key) => 
         <div className="project">
           <div className="message" key={key}>
             <div className="flex-col">
               <div style={{fontSize:"32px", marginBottom: "1vh", textAlign:"left"}}>
                 {project.name}
-                <a className="icon" href={project.github} target="_blank" data-hint="Github">
+                <a className="icon" aria-label="Github" href={project.github} target="_blank" data-hint="Github" rel="noreferrer">
                   <FaGithub size={32}/>
                 </a>
                 {project.deployment != null ? 
-                <a className="icon" href={project.deployment} target="_blank" data-hint="Github">
+                <a className="icon" aria-label="Deployment" href={project.deployment} target="_blank" data-hint="Deployment" rel="noreferrer">
                   <FaCode size={32}/>
                 </a>
                 : null}
               </div>
             </div>
             <div className="flex-row upper-proj">
-              {showImage ? <img src={project.image} className="image"/> : null}
+              {showImage ? <img src={project.image} className="image" alt="Project"/> : null}
               <div className="flex-col lower-proj">
                   <div className="flex-text description">{project.description}</div>
                   <div className="flex-text libraries"><span style={{fontWeight: 'bold'}}>Language:</span>{project.language}</div>
@@ -128,7 +128,7 @@ function Projects(props){
           </div>
         </div>
       )}
-    </div>
+    </section>
   )
 }
 

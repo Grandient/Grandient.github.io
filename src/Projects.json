@@ -6,7 +6,7 @@
         "deployment": "http://gavingosling.me/RepositoryViewr",
         "language": "Javascript",
         "libraries": "D3, React, Semantic UI, Rest.js, Chart.js",
-        "image": "images/RepositoryViewR.PNG"
+        "image": "images/RepositoryViewR.webp"
     },
     {
         "name": "PassChecker",
@@ -15,7 +15,7 @@
         "deployment": "http://gavingosling.me/PassChecker/",
         "language": "Javascript",
         "libraries": "React, D3, Semantic UI, zxcvbn, React-Icons",
-        "image": "images/PassChecker.PNG"
+        "image": "images/PassChecker.webp"
     },
     {
         "name": "Animated Signatures",
@@ -24,7 +24,7 @@
         "deployment": "http://gavingosling.me/AnimatedSignatures/",
         "language": "Javascript",
         "libraries": "React, Two.js, React-Color, React-Icons",
-        "image": "images/AnimatedSignatures.PNG"
+        "image": "images/AnimatedSignatures.webp"
     },
     {
         "name": "TicTacToe Framework",
@@ -33,7 +33,7 @@
         "deployment": null,
         "language": "Javascript",
         "libraries": "React, Pixi,js, Socket.io",
-        "image": "images/tictactoe.PNG"
+        "image": "images/tictactoe.webp"
     },
     {
         "name": "Color Lab",
@@ -42,7 +42,7 @@
         "deployment": null,
         "language": "C#",
         "libraries": "Unity.",
-        "image": "images/colorlab.png"
+        "image": "images/colorlab.webp"
     },
     {
         "name": "Weather Owl",
@@ -51,6 +51,6 @@
         "deployment": null,
         "language": "Java",
         "libraries": "MPAndroidChart, OpenWeatherMap.",
-        "image": "images/wowl.png"
+        "image": "images/wowl.webp"
     }
 ]
