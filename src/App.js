@@ -31,7 +31,7 @@ class App extends React.Component{
       }
     }
 
-    if(w <= 425){
+    if(w <= 700){
       particles = false;
     }
 
@@ -41,7 +41,7 @@ class App extends React.Component{
 
     return (
       <main>
-        {particles ? <ParticlesBg type="cobweb" num={100} color="123abc" bg={true} style={{height: h}}/> : null}
+        {particles ? <ParticlesBg type="cobweb" num={40} color="123abc" bg={true} style={{height: h}}/> : null}
         <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
         <div className="center">
           <div className="title">
@@ -68,7 +68,7 @@ class App extends React.Component{
             <a className="icon" aria-label="Stack Overflow" href="https://stackoverflow.com/users/12733306/" target="_blank" data-hint="Stack Overflow" rel="noreferrer">
               <FaStackOverflow size={40}/>
             </a>
-            <a className="icon" aria-label="CV" href="./data/GavinGosling_CV.pdf" data-hint="PDF" rel="noreferrer">
+            <a className="icon" aria-label="CV" href="./data/Gavin_Gosling_Resume.pdf" data-hint="PDF" rel="noreferrer">
               <FaFilePdf size={40}/>
             </a>
           </nav>
