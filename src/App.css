@@ -30,6 +30,12 @@ body {
     margin-left: 0.5vw;
     color:black;
     text-decoration: none;
+    transition: color 0.75s;
+}
+
+.icon:hover {
+    color: rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
 }
 
 .project {
@@ -93,6 +99,7 @@ body {
     width: 10vw;
     height: 10vw;
     border-radius: 10px;
+    border: 2px solid rgb(0, 153, 255); 
 }
 
 
@@ -103,6 +110,11 @@ body {
     border-radius: 10px;
     margin: 1vh;
     box-shadow: 1px 1px 1px 1px rgba(0, 153, 255, 0.479);
+    transition: box-shadow 0.75s;
+}
+
+.message:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0, 153, 255, 0.479);
 }
 
 

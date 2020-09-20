@@ -4,8 +4,6 @@ import {FaGithub, FaLinkedin, FaStackOverflow, FaEnvelope, FaFilePdf, FaCode} fr
 import Typist from 'react-typist';
 import { FadeIn, Bounce } from "animate-components";
 import ParticlesBg from 'particles-bg';
-import MouseParticles from "react-mouse-particles";
-import RingLoader from "react-spinners/RingLoader";
 // Files
 import json from './Projects.json';
 // Stylesheets
@@ -41,15 +39,14 @@ class App extends React.Component{
 
     return (
       <main>
-        {particles ? <ParticlesBg type="cobweb" num={40} color="123abc" bg={true} style={{height: h}}/> : null}
-        <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
+        {particles ? <ParticlesBg type="cobweb" num={40} color="123abc" bg={true} style={{height: h, width: w}}/> : null}
         <div className="center">
           <div className="title">
             <FadeIn>
             <Typist cursor={{show: false, hiddenWhenDone: true}}>
                 <div style={{fontSize: "48px"}}>Gavin Gosling</div>
                 <Typist.Delay ms={500} />
-                <div style={{fontSize: "30px"}}>Software Engineer</div>
+                <div style={{fontSize: "30px", marginBottom: "0.5vh"}}>Software Engineer</div>
             </Typist>
             </FadeIn>
           </div>
@@ -74,12 +71,6 @@ class App extends React.Component{
           </nav>
           </FadeIn>
           </Bounce>
-          {spinner ? <RingLoader
-            size={150}
-            color={"#123abc"}
-            loading={true}
-            className="ring"
-          /> : null}
         </div>
         <div className="header-project">
           <div className="title">
