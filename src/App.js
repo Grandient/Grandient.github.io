@@ -1,6 +1,6 @@
 // Library Imports
 import React from 'react';
-import {FaGithub, FaLinkedin, FaStackOverflow, FaEnvelope, FaFilePdf, FaCode} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaStackOverflow, FaEnvelope, FaFilePdf, FaCode, FaFileVideo} from 'react-icons/fa';
 import Typist from 'react-typist';
 import { FadeIn, Bounce } from "animate-components";
 import ParticlesBg from 'particles-bg';
@@ -12,11 +12,21 @@ import './App.css';
 class App extends React.Component{ 
   constructor(props){
     super(props);
+    let arr = new Array(Object.keys(json).length);
+    arr = arr.fill(false);
+    this.state = {
+      videos: arr
+    }
+  }
+
+  updateMap = (index) => {
+    let vid = this.state.videos;
+    vid[index] = !vid[index];
+    this.setState({videos:vid});
   }
 
   render(){
     let particles = true;
-    let spinner = false;
     let showImage = true;
     let h = (window.innerHeight > 0) ? window.innerHeight : window.screen.height;
     let w = (window.innerWidth > 0) ? window.innerWidth : window.screen.width;
@@ -31,10 +41,6 @@ class App extends React.Component{
 
     if(w <= 700){
       particles = false;
-    }
-
-    if(h <= 780){
-      spinner = false;
     }
 
     return (
@@ -81,7 +87,7 @@ class App extends React.Component{
               </FadeIn>
             </div>
           </div>
-        <Projects showImage={showImage}/>
+        <Projects showImage={showImage} videos={this.state.videos} updateMap={this.updateMap}/>
       </main>
     );
   }
@@ -105,10 +111,16 @@ function Projects(props){
                   <FaCode size={32}/>
                 </a>
                 : null}
+                {project.video != null ? 
+                <a className="icon" aria-label="Deployment" onClick={() => props.updateMap(project.index)} target="_blank" data-hint="Deployment" rel="noreferrer">
+                  <FaFileVideo size={32}/>
+                </a>
+                : null}
               </div>
             </div>
             <div className="flex-row upper-proj">
-              {showImage ? <img src={project.image} className="image" alt="Project"/> : null}
+              {showImage && !props.videos[project.index] ? <img src={project.image} className="image" alt="Project" onClick={() => props.updateMap(project.index)}/> : null}
+              {props.videos[project.index] ? <video width="100%" src={project.video} onClick={() => props.updateMap(project.index)} className="image" alt="Video" autoplay="" controls="" loop="" muted=""/> : null}
               <div className="flex-col lower-proj">
                   <div className="flex-text description">{project.description}</div>
                   <div className="flex-text libraries"><span style={{fontWeight: 'bold'}}>Language:</span>{project.language}</div>

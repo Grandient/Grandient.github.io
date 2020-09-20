@@ -1,32 +1,39 @@
 [
     {
+        "index": 0,
         "name": "RepositoryViewr",
         "description": "A react application that will gives an overview of any repository. An interactive table and chart views to help users understand what happens on each commit.",
         "github": "https://github.com/Grandient/RepositoryViewr",
         "deployment": "http://gavingosling.me/RepositoryViewr",
         "language": "Javascript",
         "libraries": "D3, React, Semantic UI, Rest.js, Chart.js",
-        "image": "images/RepositoryViewR.webp"
+        "image": "images/RepositoryViewR.webp",
+        "video": "data/repoviewer.webm"
     },
     {
+        "index": 1,
         "name": "PassChecker",
         "description": "A react application made for checking password strength and validity based on Dropbox's zxcvbn.",
         "github": "http://github.com/Grandient/PassChecker",
         "deployment": "http://gavingosling.me/PassChecker/",
         "language": "Javascript",
         "libraries": "React, D3, Semantic UI, zxcvbn, React-Icons",
-        "image": "images/PassChecker.webp"
+        "image": "images/PassChecker.webp",
+        "video": "data/PassChecker.webm"
     },
     {
+        "index": 2,        
         "name": "Animated Signatures",
         "description": "A react application which is an interactive signature builder.",
         "github": "https://github.com/Grandient/AnimatedSignatures",
         "deployment": "http://gavingosling.me/AnimatedSignatures/",
         "language": "Javascript",
         "libraries": "React, Two.js, React-Color, React-Icons",
-        "image": "images/AnimatedSignatures.webp"
+        "image": "images/AnimatedSignatures.webp",
+        "video": "data/AnimatedSignatures.webm"
     },
     {
+        "index": 3,
         "name": "TicTacToe Framework",
         "description": "A client-server architecture using WebSockets to host multiple different rooms of tictactoe. Uses Pixijs to add lighting uses WebGL to represent the game.",
         "github": "https://github.com/Grandient/tictactoe-socketio-pixijs",
@@ -36,6 +43,7 @@
         "image": "images/tictactoe.webp"
     },
     {
+        "index": 4,
         "name": "Color Lab",
         "description": "A puzzle game that tests the player's ability to mix subtractive and additive colors, as well color harmonies.",
         "github": "https://github.com/Grandient/Color-Theory",
@@ -45,6 +53,7 @@
         "image": "images/colorlab.webp"
     },
     {
+        "index": 5,
         "name": "Weather Owl",
         "description": "An application that allow ones to check the weather as well an analyze the weather situation.",
         "github": "https://github.com/Grandient/WeatherApp",
