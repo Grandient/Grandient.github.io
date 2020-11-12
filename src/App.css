@@ -31,10 +31,12 @@ body {
     color:black;
     text-decoration: none;
     transition: color 0.75s;
+    cursor: pointer;
 }
 
 .icon:hover {
     color: rgb(0, 153, 255);
+    cursor: pointer;
 }
 
 .project {
@@ -99,6 +101,7 @@ body {
     height: 10vw;
     border-radius: 10px;
     border: 2px solid rgb(0, 153, 255); 
+    cursor: pointer;
 }
 
 

@@ -136,3 +136,36 @@ function Projects(props){
 
 
 export default App;
+/*
+
+    {
+        "index": 3,
+        "name": "TicTacToe Framework",
+        "description": "A client-server architecture using WebSockets to host multiple different rooms of tictactoe. Uses Pixijs to add lighting uses WebGL to represent the game.",
+        "github": "https://github.com/Grandient/tictactoe-socketio-pixijs",
+        "deployment": null,
+        "language": "Javascript",
+        "libraries": "React, Pixi,js, Socket.io",
+        "image": "images/tictactoe.webp"
+    },
+    {
+        "index": 4,
+        "name": "Color Lab",
+        "description": "A puzzle game that tests the player's ability to mix subtractive and additive colors, as well color harmonies.",
+        "github": "https://github.com/Grandient/Color-Theory",
+        "deployment": null,
+        "language": "C#",
+        "libraries": "Unity.",
+        "image": "images/colorlab.webp"
+    },
+    {
+        "index": 5,
+        "name": "Weather Owl",
+        "description": "An application that allow ones to check the weather as well an analyze the weather situation.",
+        "github": "https://github.com/Grandient/WeatherApp",
+        "deployment": null,
+        "language": "Java",
+        "libraries": "MPAndroidChart, OpenWeatherMap.",
+        "image": "images/wowl.webp"
+    }
+*/
