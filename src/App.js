@@ -119,7 +119,7 @@ function Projects(props){
               </div>
             </div>
             <div className="flex-row upper-proj">
-              {showImage && !props.videos[project.index] ? <img src={require(project.image)} className="image" alt="Project" onClick={() => props.updateMap(project.index)}/> : null}
+              {showImage && !props.videos[project.index] ? <img src={require("/" + project.image)} className="image" alt="Project" onClick={() => props.updateMap(project.index)}/> : null}
               {props.videos[project.index] ? <video width="100%" src={project.video} onClick={() => props.updateMap(project.index)} className="image" alt="Video" autoplay="" controls="" loop="" muted=""/> : null}
               <div className="flex-col lower-proj">
                   <div className="flex-text description">{project.description}</div>
