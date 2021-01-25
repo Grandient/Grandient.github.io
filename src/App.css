@@ -232,7 +232,7 @@ code {
   width: 10vw;
   font-size: calc(min(3vh,2vw));
   border: 4px solid rgb(209, 73, 157);
-  background-color:rgb(120, 88, 121);
+  background-color:rgba(43, 0, 44, 0.733);
 }
 
 

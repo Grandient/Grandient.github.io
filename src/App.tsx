@@ -232,7 +232,7 @@ function ContainerOption(props: any){
     <div>
       <div className="sub-options">
         {props.options.map((option: {name: string, path: string}) => {
-          return <div onClick={() => setClick(option.name)} className={click === option.name ? "subcontainer-option selected" : "subcontainer-option"}><img src={option.path} className={click === option.name ? "subcontainer-image selected" : "subcontainer-image"}/></div>
+          return <div onClick={() => setClick(option.name)} className={click === option.name ? "subcontainer-option selected" : "subcontainer-option"}><img src={option.path} alt={option.name} className={click === option.name ? "subcontainer-image selected" : "subcontainer-image"}/></div>
         })}
       </div>
       <div className="item-container">
@@ -300,7 +300,7 @@ function ItemContainer(props: any){
           <div className="tech-row">
           {props.item.technologies.map((tech:any) => {
             return <a aria-label="Tech Link" href={tech.link} target="_blank" data-hint="Github" rel="noreferrer">
-              <img src={tech.image} className="tech-img"/>
+              <img alt={tech.image} src={tech.image} className="tech-img"/>
             </a>
           })}
           </div>
