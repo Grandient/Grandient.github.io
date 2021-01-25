@@ -33,7 +33,7 @@ let projects = [
     deployment: "http://gavingosling.me/PassChecker/",
     link: "https://github.com/Grandient/PassChecker",
     type: "Project",
-    video: "http://gavingosling.me/data/PassChecker.webm",
+    video: "https://gavingosling.me/data/PassChecker.webm",
     technologies: [{image:react, link: "https://reactjs.org/"}, {image: semanticui, link:"https://semantic-ui.com/"}]
   },
   { name: "RepositoryViewr", 
@@ -42,7 +42,7 @@ let projects = [
     deployment: "http://gavingosling.me/RepositoryViewr/",
     link: "https://github.com/Grandient/RepositoryViewr",
     type: "Project",
-    video: "http://gavingosling.me/data/repoviewer.webm",
+    video: "https://gavingosling.me/data/repoviewer.webm",
     technologies: [{image: react, link: "https://reactjs.org/"}]
   },
   { name: "Badlion.net",
@@ -197,7 +197,7 @@ function Footer(props:any){
             <a className="icon" aria-label="Stack Overflow" href="https://stackoverflow.com/users/12733306/" target="_blank" data-hint="Stack Overflow" rel="noreferrer">
               <FaStackOverflow size={40}/>
             </a>
-            <a className="icon" aria-label="CV" href="http://gavingosling.me/data/Gavin_Gosling_Resume.pdf" data-hint="PDF" rel="noreferrer">
+            <a className="icon" aria-label="CV" href="https://gavingosling.me/data/Gavin_Gosling_Resume.pdf" data-hint="PDF" rel="noreferrer">
               <FaFilePdf size={40}/>
             </a>
           </nav>
