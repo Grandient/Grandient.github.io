@@ -4,6 +4,7 @@ import App from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+window.onscroll = function () { window.scrollTo(0, 0); };
 
 ReactDOM.render(
   <React.StrictMode>

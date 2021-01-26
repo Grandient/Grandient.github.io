@@ -133,14 +133,7 @@ let technology = [
 ]
 
 /*
-     <div>
-        <div className="overflow">
-          <div className="app-stars"></div>
-        </div>
-        <div className="overflow">
-          <div className="app-nova"></div>
-        </div>
-      </div>
+    
 */
 
 function App() {
@@ -148,6 +141,14 @@ function App() {
 
   return (
     <div>
+       <div className="overflow">
+        <div className="overflow">
+          <div className="app-stars"></div>
+        </div>
+        <div className="overflow">
+          <div className="app-nova"></div>
+        </div>
+      </div>
       {click ? 
         <div onClick={(e) => click ? setClick(!click) : null} className="info-modal">
           <div className="modal-content">

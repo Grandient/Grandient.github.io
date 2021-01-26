@@ -412,6 +412,11 @@ code {
 
 @media only screen and (min-width: 0px) {
 
+  .overflow {
+    display: none;
+  }
+  
+
   .info-modal-button {
     display: none;
   }
@@ -696,6 +701,10 @@ code {
 
   .main-container {
     width: 60vw;
+  }
+
+  .overflow {
+    display: flex;
   }
 
   .container-option {
