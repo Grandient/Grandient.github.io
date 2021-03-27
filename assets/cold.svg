@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="808px" viewBox="0 0 1440 808" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Global / Haze / Cold - 1</title>
+    <defs>
+        <radialGradient cx="32.439649%" cy="44.5087261%" fx="32.439649%" fy="44.5087261%" r="66.9159251%" gradientTransform="translate(0.324396,0.445087),scale(0.560913,1.000000),rotate(-18.078659),translate(-0.324396,-0.445087)" id="radialGradient-1">
+            <stop stop-color="#447ADA" offset="0%"></stop>
+            <stop stop-color="#2E0C83" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-12.0%" y="-21.4%" width="124.0%" height="142.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="32.439649%" cy="44.5087261%" fx="32.439649%" fy="44.5087261%" r="92.5292135%" gradientTransform="translate(0.324396,0.445087),scale(0.395712,1.000000),rotate(-12.968840),translate(-0.324396,-0.445087)" id="radialGradient-3">
+            <stop stop-color="#4C66FF" offset="0%"></stop>
+            <stop stop-color="#AAEAFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-14.4%" y="-36.4%" width="128.8%" height="172.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="32.439649%" cy="44.5087261%" fx="32.439649%" fy="44.5087261%" r="92.5292135%" gradientTransform="translate(0.324396,0.445087),scale(0.395712,1.000000),rotate(-12.968840),translate(-0.324396,-0.445087)" id="radialGradient-5">
+            <stop stop-color="#4C66FF" offset="0%"></stop>
+            <stop stop-color="#AAEAFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-21.0%" y="-53.0%" width="141.9%" height="206.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Global-/-Haze-/-Cold---1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <path d="M343.414847,110.014674 C196.948851,130.099282 19.7378183,406.875853 59.7343017,492.062293 C99.730785,577.248734 276.037609,763.565454 518.833163,782.95749 C761.628716,802.349525 1210.28186,548.101839 1289.2343,432.062293 C1368.18675,316.022748 1138.7343,479.562293 1065.7343,374.562293 C992.734302,269.562293 1009.14361,23.9198795 858.734302,94.5622934 C708.324991,165.204707 572.856303,78.5517963 343.414847,110.014674 Z" id="Path-2" fill="url(#radialGradient-1)" filter="url(#filter-2)"></path>
+        <path d="M606.764271,111.44149 C484.919179,123.228915 337.497284,285.665903 370.770367,335.660845 C404.04345,385.655787 550.713133,495.002929 752.694804,506.383891 C954.676475,517.764853 1327.91111,368.54981 1393.59167,300.447535 C1459.27223,232.34526 1268.39069,328.324739 1207.66197,266.701446 C1146.93326,205.078153 1160.58417,60.9134451 1035.45863,102.372666 C910.333095,143.831886 797.636666,92.9762889 606.764271,111.44149 Z" id="Path-2" fill="url(#radialGradient-3)" filter="url(#filter-4)"></path>
+        <path d="M786.379341,93.2935477 C702.684776,101.39025 601.421678,212.967113 624.276733,247.308299 C647.131787,281.649485 747.878195,356.759293 886.618033,364.576799 C1025.35787,372.394305 1281.73021,269.899505 1326.84574,223.120516 C1371.96126,176.341526 1240.84603,242.269177 1199.13189,199.940556 C1157.41775,157.611935 1166.79447,58.5861771 1080.84658,87.0642339 C994.898704,115.542291 917.488292,80.6099266 786.379341,93.2935477 Z" id="Path-2-Copy" fill="url(#radialGradient-5)" filter="url(#filter-6)"></path>
+    </g>
+</svg>
